@@ -2,7 +2,7 @@
 
 use DBI;
 # MODIFY THE CONNECTION STRING BELOW, INCLUDING HOSTNAME IF NEEDED (currently assumes localhost)
-$dbh = DBI->connect('dbi:mysql:'REPLACE_WITH_QUERY_PROFILER_DATABASE_NAME','REPLACE_WITH_USERNAME','REPLACE_WITH_PASSWORD') || die "Could not connect to database: $DBI::errstr";
+$dbh = DBI->connect('dbi:mysql:REPLACE_WITH_QUERY_PROFILER_DATABASE_NAME','REPLACE_WITH_USERNAME','REPLACE_WITH_PASSWORD') || die "Could not connect to database: $DBI::errstr";
 #
 # Nathanial Hendler
 # http://retards.org/
