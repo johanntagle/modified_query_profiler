@@ -34,5 +34,6 @@ from
     if(query_time>1.75 and query_time<2,1,0) as less_than_2000,
     if(query_time>2,1,0) as more_than_2000
   from query_statistics ) s  , queries q
-where q.id=s.query_id;
+where q.id=s.query_id
+group by q.id, q.query_text;
 
