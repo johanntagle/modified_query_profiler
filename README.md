@@ -19,3 +19,4 @@ NOTES AND DISCLAIMERS:
 * Obviously there's a lot of improvements that can be done.
 * Requires a lot of RAM if the slow query log is huge
 * Use at your own risk, I won't be responsible for any untoward events related to using this script and described methods
+* There's pt-query-digest from the Percona Toolkit (http://www.percona.com/doc/percona-toolkit/2.1/pt-query-digest.html), which I just recently discovered.  I will likely discontinue any development of this tool in favor of using that instead.
